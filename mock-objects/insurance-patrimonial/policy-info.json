@@ -1,119 +1,76 @@
-{
-    "documentType": "APOLICE_INDIVIDUAL",
-    "policyId": "f762dcb3-5b5d-54ff-988f-93defd8dd01b",
-    "susepProcessNumber": "string",
-    "groupCertificateId": "string",
-    "issuanceType": "EMISSAO_PROPRIA",
-    "issuanceDate": "AAAA-MM-DD",
-    "termStartDate": "AAAA-MM-DD",
-    "termEndDate": "AAAA-MM-DD",
-    "leadInsurerCode": "string",
-    "leadInsurerPolicyId": "string",
-    "maxLMG": {
-        "amount": "2000.00",
-        "unit": {
-            "code": "R$",
-            "description": "BRL"
-        }
-    },
-    "proposalId": "string",
-    "insureds": [
-        {
-            "identification": "12345678900",
-            "identificationType": "CPF",
-            "name": "Nome Sobrenome",
-            "postCode": "10000000",
-            "email": "string",
-            "city": "string",
-            "state": "string",
-            "country": "BRA",
-            "address": "string"
-        }
-    ],
-    "beneficiaries": [
-        {
-            "identification": "12345678900",
-            "identificationType": "CPF",
-            "name": "Nome Sobrenome"
-        }
-    ],
-    "principals": [
-        {
-            "identification": "12345678900",
-            "identificationType": "CPF",
-            "name": "Nome Sobrenome",
-            "postCode": "10000000",
-            "email": "string",
-            "city": "string",
-            "state": "string",
-            "country": "BRA",
-            "address": "string"
-        }
-    ],
-    "intermediaries": [
-        {
-            "type": "REPRESENTANTE",
-            "identification": "12345678900",
-            "brokerId": "string",
-            "identificationType": "CPF",
-            "name": "Nome Sobrenome",
-            "postCode": "10000000",
-            "city": "string",
-            "state": "string",
-            "country": "BRA",
-            "address": "string"
-        }
-    ],
-    "insuredObjects": [
-        {
-            "identification": "string",
-            "type": "CONTRATO",
-            "typeAdditionalInfo": "string",
-            "description": "string",
-            "amount": {
-                "amount": "2000.00",
-                "unit": {
-                    "code": "R$",
-                    "description": "BRL"
-                }
-            },
-            "coverages": [
-                {
-                    "branch": "0114",
-                    "code": "IMOVEL_BASICA",
-                    "description": "string",
-                    "internalCode": "string",
-                    "susepProcessNumber": "string",
-                    "LMI": {
-                        "amount": "2000.00",
-                        "unit": {
-                            "code": "R$",
-                            "description": "BRL"
-                        }
-                    },
-                    "isLMISublimit": true,
-                    "termStartDate": "AAAA-MM-DD",
-                    "termEndDate": "AAAA-MM-DD",
-                    "isMainCoverage": true,
-                    "feature": "MASSIFICADOS",
-                    "type": "PARAMETRICO",
-                    "gracePeriod": 0,
-                    "gracePeriodicity": "DIA",
-                    "gracePeriodCountingMethod": "DIAS_UTEIS",
-                    "gracePeriodStartDate": "AAAA-MM-DD",
-                    "gracePeriodEndDate": "AAAA-MM-DD"
-                }
-            ]
-        }
-    ],
-    "coverages": [
-        {
-            "branch": "111",
-            "code": "IMOVEL_BASICA",
-            "description": "string",
-            "deductible": {
-                "type": "DEDUTIVEL",
+[
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "f762dcb3-5b5d-54ff-988f-93defd8dd01b",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
                 "typeAdditionalInfo": "string",
+                "description": "string",
                 "amount": {
                     "amount": "2000.00",
                     "unit": {
@@ -121,51 +78,1806 @@
                         "description": "BRL"
                     }
                 },
-                "period": 10,
-                "periodicity": "DIA",
-                "periodCountingMethod": "DIAS_UTEIS",
-                "periodStartDate": "2022-05-16",
-                "periodEndDate": "2022-05-17",
-                "description": "Franquia de exemplo"
-            },
-            "POS": {
-                "applicationType": "VALOR",
-                "description": "Descrição de exemplo",
-                "minValue": {
-                    "amount": "2000.00",
-                    "unit": {
-                        "code": "R$",
-                        "description": "BRL"
+                "coverages": [
+                    {
+                        "branch": "0114",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
                     }
-                },
-                "maxValue": {
-                    "amount": "2000.00",
-                    "unit": {
-                        "code": "R$",
-                        "description": "BRL"
-                    }
-                },
-                "percentage": "10.00"
+                ]
             }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
         }
-    ],
-    "coinsuranceRetainedPercentage": "10.00",
-    "coinsurers": [
-        {
-            "identification": "string",
-            "cededPercentage": "10.00"
-        }
-    ],
-    "branchInfo": {
-        "basicCoverageIndex": "SIMPLES",
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "22261a20-b7c1-4f86-9209-f7357746f661",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "02188705076",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
         "insuredObjects": [
             {
                 "identification": "string",
-                "propertyType": "CASA",
-                "structuringType": "CONDOMINIO_VERTICAL",
-                "postCode": "10000000",
-                "businessActivity": "1234567"
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0114",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
             }
-        ]
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "f9421cf6-fa6a-4545-879e-b67d63bd8b66",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0116",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "ddcc22fa-ab36-40e1-a01f-a5fb09c8c600",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0118",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "c50873ea-f526-4149-8285-02ba6e1ab960",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0196",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "e76d5d9a-87b4-44e3-92df-085469c8dffe",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0173",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "06ee745b-9c2d-47ae-b9c2-a0814f1ebad9",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0141",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "92682926-a159-4afd-a094-54baa3eadfec",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0167",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "1a4b8499-9d78-4a71-a176-72518f766c7c",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0112",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "29b10fd3-40f9-4762-a871-6d5d46d719e6",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0171",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
+    },
+    {
+        "documentType": "APOLICE_INDIVIDUAL",
+        "policyId": "c4834650-c909-4a58-a74c-9596267b7ce5",
+        "susepProcessNumber": "string",
+        "groupCertificateId": "string",
+        "issuanceType": "EMISSAO_PROPRIA",
+        "issuanceDate": "AAAA-MM-DD",
+        "termStartDate": "AAAA-MM-DD",
+        "termEndDate": "AAAA-MM-DD",
+        "leadInsurerCode": "string",
+        "leadInsurerPolicyId": "string",
+        "maxLMG": {
+            "amount": "2000.00",
+            "unit": {
+                "code": "R$",
+                "description": "BRL"
+            }
+        },
+        "proposalId": "string",
+        "insureds": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "beneficiaries": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome"
+            }
+        ],
+        "principals": [
+            {
+                "identification": "12345678900",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "email": "string",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "intermediaries": [
+            {
+                "type": "REPRESENTANTE",
+                "identification": "12345678900",
+                "brokerId": "string",
+                "identificationType": "CPF",
+                "name": "Nome Sobrenome",
+                "postCode": "10000000",
+                "city": "string",
+                "state": "string",
+                "country": "BRA",
+                "address": "string"
+            }
+        ],
+        "insuredObjects": [
+            {
+                "identification": "string",
+                "type": "CONTRATO",
+                "typeAdditionalInfo": "string",
+                "description": "string",
+                "amount": {
+                    "amount": "2000.00",
+                    "unit": {
+                        "code": "R$",
+                        "description": "BRL"
+                    }
+                },
+                "coverages": [
+                    {
+                        "branch": "0195",
+                        "code": "IMOVEL_BASICA",
+                        "description": "string",
+                        "internalCode": "string",
+                        "susepProcessNumber": "string",
+                        "LMI": {
+                            "amount": "2000.00",
+                            "unit": {
+                                "code": "R$",
+                                "description": "BRL"
+                            }
+                        },
+                        "isLMISublimit": true,
+                        "termStartDate": "AAAA-MM-DD",
+                        "termEndDate": "AAAA-MM-DD",
+                        "isMainCoverage": true,
+                        "feature": "MASSIFICADOS",
+                        "type": "PARAMETRICO",
+                        "gracePeriod": 0,
+                        "gracePeriodicity": "DIA",
+                        "gracePeriodCountingMethod": "DIAS_UTEIS",
+                        "gracePeriodStartDate": "AAAA-MM-DD",
+                        "gracePeriodEndDate": "AAAA-MM-DD"
+                    }
+                ]
+            }
+        ],
+        "coverages": [
+            {
+                "branch": "111",
+                "code": "IMOVEL_BASICA",
+                "description": "string",
+                "deductible": {
+                    "type": "DEDUTIVEL",
+                    "typeAdditionalInfo": "string",
+                    "amount": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "period": 10,
+                    "periodicity": "DIA",
+                    "periodCountingMethod": "DIAS_UTEIS",
+                    "periodStartDate": "2022-05-16",
+                    "periodEndDate": "2022-05-17",
+                    "description": "Franquia de exemplo"
+                },
+                "POS": {
+                    "applicationType": "VALOR",
+                    "description": "Descrição de exemplo",
+                    "minValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "maxValue": {
+                        "amount": "2000.00",
+                        "unit": {
+                            "code": "R$",
+                            "description": "BRL"
+                        }
+                    },
+                    "percentage": "10.00"
+                }
+            }
+        ],
+        "coinsuranceRetainedPercentage": "10.00",
+        "coinsurers": [
+            {
+                "identification": "string",
+                "cededPercentage": "10.00"
+            }
+        ],
+        "branchInfo": {
+            "basicCoverageIndex": "SIMPLES",
+            "insuredObjects": [
+                {
+                    "identification": "string",
+                    "propertyType": "CASA",
+                    "structuringType": "CONDOMINIO_VERTICAL",
+                    "postCode": "10000000",
+                    "businessActivity": "1234567"
+                }
+            ]
+        }
     }
-}
+]
